@@ -1,0 +1,999 @@
+0xc00236c0:  c0012550    c00236cc    c0012638    c0012760
+0xc00236d0:  10000001    c0016574    c0012638    00000018
+0xc00236e0:  0000000f    00000001    c00236cc    c00236cc
+0xc00236f0:  c0012638    c0012638    c0023700    c0012720
+0xc0023700:  c000f440    10000001    c0016574    c0012720
+0xc0023710:  00000018    0000000f    00000001    c0023700
+0xc0023720:  c0023700    c0012720    c0012720    c0023734
+0xc0023730:  c0012ed8    c00001c8    10000001    00000000
+0xc0023740:  00000000    800000ac    0000000f    c00181e8
+0xc0023750:  00000000    c000001c    16e017d0    17e017f0
+0xc0023760:  17b10770    17b057b0    57f057f0    15f817f4
+0xc0023770:  17b017b0    13301732    17c017e8    17f016d0
+0xc0023780:  033007f0    07b117f0    14e817f8    54d056f0
+0xc0023790:  17f016f0    033007b0    15f011c0    17f016e0
+0xc00237a0:  07302371    17e013f0    57f017f0    14f014c0
+0xc00237b0:  17f017b0    13701730    15c014e0    16f417f8
+0xc00237c0:  273013b0    07b01ff1    16c017f0    15f054c0
+0xc00237d0:  17f017b1    03300760    04c094e0    97d017f0
+0xc00237e0:  23f01372    33b01ff0    07f01790    127016f0
+0xc00237f0:  17f017f2    13500b30    17cc94d0    17f017f0
+0xc0023800:  237017b0    0bf017f2    17f016f8    15e417e4
+0xc0023810:  27301f50    13b01770    54d81550    97f017b0
+0xc0023820:  033037f0    07f20770    54f013e0    17d015c0
+0xc0023830:  07f007f0    47300330    94e016d0    17f806f8
+0xc0023840:  0b300370    17f03770    17f014f8    14d816f0
+0xc0023850:  076017f0    07320332    564015d0    85f017e0
+0xc0023860:  173003d2    17f317f1    15c017e0    14f01580
+0xc0023870:  17f003f0    17d007f0    15d017a0    17f816f0
+0xc0023880:  07301770    13e107f0    17e414f0    14d857e0
+0xc0023890:  16f007b0    0f720330    14c054c0    17b014e0
+0xc00238a0:  063003b0    1eb017f0    17f417f0    175015e0
+0xc00238b0:  177017e0    17b01370    16f015d0    15b017f4
+0xc00238c0:  03300730    17b017b0    17c017c0    56d454f0
+0xc00238d0:  1fb017f0    1bb00330    15c016f0    16f017e0
+0xc00238e0:  03f01331    13f01ff2    17d01770    54e015f8
+0xc00238f0:  17f013f2    17301772    94d416e0    167015f0
+0xc0023900:  07b017f0    33f217b2    57f097f0    16e017c4
+0xc0023910:  17f01370    13f001b0    174014c0    17f017f0
+0xc0023920:  177013b0    17f037f0    14e017e0    15d014f0
+0xc0023930:  17f80370    07f017b0    16c017e0    16f837f0
+Call informaion:
+Frame pointer:0xc0023560, Frame size:52, function entry:0xc0011f30, return address:0xc0012108.
+Frame pointer:0xc0023594, Frame size:52, function entry:0xc0012044, return address:0xc00121f0.
+Frame pointer:0xc00235c8, Frame size:52, function entry:0xc001212c, return address:0xc00122d8.
+Frame pointer:0xc00235fc, Frame size:52, function entry:0xc0012214, return address:0xc00123c0.
+Frame pointer:0xc0023630, Frame size:52, function entry:0xc00122fc, return address:0xc00124a8.
+Frame pointer:0xc0023664, Frame size:52, function entry:0xc00123e4, return address:0xc0012590.
+Frame pointer:0xc0023698, Frame size:52, function entry:0xc00124cc, return address:0xc0012678.
+Frame pointer:0xc00236cc, Frame size:52, function entry:0xc00125b4, return address:0xc0012760.
+Frame pointer:0xc0023700, Frame size:52, function entry:0xc001269c, return address:0xc000f440.
+Frame pointer:0xc0023734, Frame size:0, function entry:0xc000f3e0, return address:0xc00001c8.
+
+mb_excep_illegal_instr_call5 : begin.
+mb_excep_illegal_instr_call5 = 0xc0012d74
+u32_r1_sp = 0xc0023700
+u32_r15_return_function = 0xc0012df4
+
+mb_excep_illegal_instr_call4 : begin.
+mb_excep_illegal_instr_call4 = 0xc0012c94
+u32_r1_sp = 0xc00236cc
+u32_r15_return_function = 0xc0012d14
+
+mb_excep_illegal_instr_call3 : begin.
+mb_excep_illegal_instr_call3 = 0xc0012bb4
+u32_r1_sp = 0xc0023698
+u32_r15_return_function = 0xc0012c34
+
+mb_excep_illegal_instr_call2 : begin.
+mb_excep_illegal_instr_call2 = 0xc0012ad4
+u32_r1_sp = 0xc0023664
+u32_r15_return_function = 0xc0012b54
+
+mb_excep_illegal_instr_call1 : begin.
+mb_excep_illegal_instr_call1 = 0xc00129f4
+u32_r1_sp = 0xc0023630
+u32_r15_return_function = 0xc0012a74
+
+mb_excep_illegal_instr_generate : begin.
+mb_excep_illegal_instr_generate = 0xc001291c
+u32_r1_sp = 0xc00235fc
+u32_r15_return_function = 0xc001299c
+
+
+mb_excep_illegal_instr_handler : g_ui_excep_illegal_instr_cnt = 1
+
+mb_excep_info_handle : begin.
+mb_excep_info_handle : u32_msr = 0x000003aa
+mb_excep_info_handle : u32_ear = 0x00000008
+mb_excep_info_handle : u32_esr = 0x00000c02
+mb_excep_info_handle : u32_edr = 0x00000000
+mb_excep_info_handle : u32_r17_pc = 0xc00129d8
+mb_excep_info_handle : u32_r1_sp = 0xc00235fc
+mb_unwind_stack : u32_stack_pointer = 0xc00235fc
+mb_unwind_stack : u32_pc = 0xc00129d8
+mb_unwind_stack : u32_stack_low_address = 0xc0022778
+mb_unwind_stack : u32_stack_high_address = 0xc0023778
+
+Analyze stack pointer: 0xc00235fc
+Try the original stack pointer: 0xc00235fc.
+
+
+No. 1-1 stack check at 0xc00235fc
+Frame size: 0x00000034, return address: 0xc0012ab0, pu32_frame_size_pc: 0xc001291c
+
+
+No. 1-2 stack check at 0xc0023630
+Frame size: 0x00000034, return address: 0xc0012b90, pu32_frame_size_pc: 0xc00129f4
+
+
+No. 1-3 stack check at 0xc0023664
+Frame size: 0x00000034, return address: 0xc0012c70, pu32_frame_size_pc: 0xc0012ad4
+
+
+No. 1-4 stack check at 0xc0023698
+Frame size: 0x00000034, return address: 0xc0012d50, pu32_frame_size_pc: 0xc0012bb4
+
+
+No. 1-5 stack check at 0xc00236cc
+Frame size: 0x00000034, return address: 0xc0012e30, pu32_frame_size_pc: 0xc0012c94
+
+
+No. 1-6 stack check at 0xc0023700
+Frame size: 0x00000034, return address: 0xc000f458, pu32_frame_size_pc: 0xc0012d74
+
+
+No. 1-7 stack check at 0xc0023734
+Find breakpoint at 0xc000f3e0.
+Might fail to unwind stack.
+Frame size: 0x00000000, return address: 0xc00001c8, pu32_frame_size_pc: 0xc000f3e0
+Find main()at 0xc000f3e0(main:0xc000f3e0).
+mb_unwind_stack : i_frame_valid_flag = 0x00000001
+mb_unwind_stack : pu32_frame_pointer_try = 0xc0023734
+mb_unwind_stack : pu32_frame_pointer_found = 0xc00235fc
+
+
+No. 0 Frame at 0xc00235fc
+Frame size: 0x00000034, return address: 0xc0012ab0, pu32_frame_size_pc: 0xc001291c
+Might find mb_excep_illegal_instr_generate() at address 0xc001291c.
+
+No. 1 Frame at 0xc0023630
+Frame size: 0x00000034, return address: 0xc0012b90, pu32_frame_size_pc: 0xc00129f4
+Might find mb_excep_illegal_instr_call1() at address 0xc00129f4.
+
+No. 2 Frame at 0xc0023664
+Frame size: 0x00000034, return address: 0xc0012c70, pu32_frame_size_pc: 0xc0012ad4
+Might find mb_excep_illegal_instr_call2() at address 0xc0012ad4.
+
+No. 3 Frame at 0xc0023698
+Frame size: 0x00000034, return address: 0xc0012d50, pu32_frame_size_pc: 0xc0012bb4
+Might find mb_excep_illegal_instr_call3() at address 0xc0012bb4.
+
+No. 4 Frame at 0xc00236cc
+Frame size: 0x00000034, return address: 0xc0012e30, pu32_frame_size_pc: 0xc0012c94
+Might find mb_excep_illegal_instr_call4() at address 0xc0012c94.
+
+No. 5 Frame at 0xc0023700
+Frame size: 0x00000034, return address: 0xc000f458, pu32_frame_size_pc: 0xc0012d74
+Might find mb_excep_illegal_instr_call5() at address 0xc0012d74.
+
+No. 6 Frame at 0xc0023734
+Find breakpoint at 0xc000f3e0.
+Might fail to unwind stack.
+Frame size: 0x00000000, return address: 0xc00001c8, pu32_frame_size_pc: 0xc000f3e0
+Find main()exactly at 0xc000f3e0(main:0xc000f3e0).
+
+
+
+Dump stack of system mode that causes this exception::
+0xc00235c0:  40600000  0000000a  00000026  00000026 
+0xc00235d0:  0000000f  00000001  c0021954  00000000 
+0xc00235e0:  c00217f4  c0012a74  c00129cc  c0017efc 
+0xc00235f0:  00000002  00000000  000002aa  c0012ab0 
+0xc0023600:  c0016544  c0016574  c001299c  00000018 
+0xc0023610:  0000000f  00000001  c00235fc  c00235fc 
+0xc0023620:  c001299c  c001299c  c0023630  c0012a74 
+0xc0023630:  c0012b90  c0016544  c0016574  c0012a74 
+0xc0023640:  00000018  0000000f  00000001  c0023630 
+0xc0023650:  c0023630  c0012a74  c0012a74  c0023664 
+0xc0023660:  c0012b54  c0012c70  c0016544  c0016574 
+0xc0023670:  c0012b54  00000018  0000000f  00000001 
+0xc0023680:  c0023664  c0023664  c0012b54  c0012b54 
+0xc0023690:  c0023698  c0012c34  c0012d50  c0016544 
+0xc00236a0:  c0016574  c0012c34  00000018  0000000f 
+0xc00236b0:  00000001  c0023698  c0023698  c0012c34 
+0xc00236c0:  c0012c34  c00236cc  c0012d14  c0012e30 
+0xc00236d0:  c0016544  c0016574  c0012d14  00000018 
+0xc00236e0:  0000000f  00000001  c00236cc  c00236cc 
+0xc00236f0:  c0012d14  c0012d14  c0023700  c0012df4 
+0xc0023700:  c000f458  c0016544  c0016574  c0012df4 
+0xc0023710:  00000018  0000000f  00000001  c0023700 
+0xc0023720:  c0023700  c0012df4  c0012df4  c0023734 
+0xc0023730:  c0012ed8  c00001c8  10000001  00000000 
+
+
+
+AXI Illegal Instruction Exception exception inofrmation counter: 1.
+No. 0 AXI Illegal Instruction Exception exception inofrmation:
+MSR: 0x000003aa.
+EAR: 0x00000008.
+ESR: 0x00000c02.
+EDR: 0x00000000.
+Exception address: 0xc00129d8.
+Stack pointer: 0xc00235fc.
+
+Stack contents:
+0xc00235c0:  40600000    0000000a    00000026    00000026
+0xc00235d0:  0000000f    00000001    c0021954    00000000
+0xc00235e0:  c00217f4    c0012a74    c00129cc    c0017efc
+0xc00235f0:  00000002    00000000    000002aa    c0012ab0
+0xc0023600:  c0016544    c0016574    c001299c    00000018
+0xc0023610:  0000000f    00000001    c00235fc    c00235fc
+0xc0023620:  c001299c    c001299c    c0023630    c0012a74
+0xc0023630:  c0012b90    c0016544    c0016574    c0012a74
+0xc0023640:  00000018    0000000f    00000001    c0023630
+0xc0023650:  c0023630    c0012a74    c0012a74    c0023664
+0xc0023660:  c0012b54    c0012c70    c0016544    c0016574
+0xc0023670:  c0012b54    00000018    0000000f    00000001
+0xc0023680:  c0023664    c0023664    c0012b54    c0012b54
+0xc0023690:  c0023698    c0012c34    c0012d50    c0016544
+0xc00236a0:  c0016574    c0012c34    00000018    0000000f
+0xc00236b0:  00000001    c0023698    c0023698    c0012c34
+0xc00236c0:  c0012c34    c00236cc    c0012d14    c0012e30
+0xc00236d0:  c0016544    c0016574    c0012d14    00000018
+0xc00236e0:  0000000f    00000001    c00236cc    c00236cc
+0xc00236f0:  c0012d14    c0012d14    c0023700    c0012df4
+0xc0023700:  c000f458    c0016544    c0016574    c0012df4
+0xc0023710:  00000018    0000000f    00000001    c0023700
+0xc0023720:  c0023700    c0012df4    c0012df4    c0023734
+0xc0023730:  c0012ed8    c00001c8    10000001    00000000
+0xc0023740:  00000000    800000ac    0000000f    c00181e8
+0xc0023750:  00000000    c000001c    16e017d0    17e017f0
+0xc0023760:  17b10770    17b057b0    57f057f0    15f817f4
+0xc0023770:  17b017b0    13301732    17c017e8    17f016d0
+0xc0023780:  033007f0    07b117f0    14e817f8    54d056f0
+0xc0023790:  17f016f0    033007b0    15f011c0    17f016e0
+0xc00237a0:  07302371    17e013f0    57f017f0    14f014c0
+0xc00237b0:  17f017b0    13701730    15c014e0    16f417f8
+0xc00237c0:  273013b0    07b01ff1    16c017f0    15f054c0
+0xc00237d0:  17f017b1    03300760    04c094e0    97d017f0
+0xc00237e0:  23f01372    33b01ff0    07f01790    127016f0
+0xc00237f0:  17f017f2    13500b30    17cc94d0    17f017f0
+0xc0023800:  237017b0    0bf017f2    17f016f8    15e417e4
+0xc0023810:  27301f50    13b01770    54d81550    97f017b0
+0xc0023820:  033037f0    07f20770    54f013e0    17d015c0
+0xc0023830:  07f007f0    47300330    94e016d0    17f806f8
+0xc0023840:  0b300370    17f03770    17f014f8    14d816f0
+0xc0023850:  076017f0    07320332    564015d0    85f017e0
+0xc0023860:  173003d2    17f317f1    15c017e0    14f01580
+0xc0023870:  17f003f0    17d007f0    15d017a0    17f816f0
+0xc0023880:  07301770    13e107f0    17e414f0    14d857e0
+0xc0023890:  16f007b0    0f720330    14c054c0    17b014e0
+0xc00238a0:  063003b0    1eb017f0    17f417f0    175015e0
+0xc00238b0:  177017e0    17b01370    16f015d0    15b017f4
+0xc00238c0:  03300730    17b017b0    17c017c0    56d454f0
+0xc00238d0:  1fb017f0    1bb00330    15c016f0    16f017e0
+0xc00238e0:  03f01331    13f01ff2    17d01770    54e015f8
+0xc00238f0:  17f013f2    17301772    94d416e0    167015f0
+0xc0023900:  07b017f0    33f217b2    57f097f0    16e017c4
+0xc0023910:  17f01370    13f001b0    174014c0    17f017f0
+0xc0023920:  177013b0    17f037f0    14e017e0    15d014f0
+0xc0023930:  17f80370    07f017b0    16c017e0    16f837f0
+0xc0023940:  137013f0    37b017f0    15b415e0    96d017e0
+0xc0023950:  17f07732    0fb013a0    14c013d0    16e016f0
+0xc0023960:  33b017f0    1ff01370    17d414e1    16b017a0
+0xc0023970:  17f007f0    077017b0    17c014f0    16d096f0
+0xc0023980:  17b007b0    376007b0    54d017f0    16f0d7f0
+0xc0023990:  037017f2    23300730    04d017e0    15d016f0
+0xc00239a0:  3f701730    17f01fb0    05d417f0    54c814e0
+0xc00239b0:  177017f0    0b301330    17d014f0    13e015f0
+Call informaion:
+Frame pointer:0xc00235fc, Frame size:52, function entry:0xc001291c, return address:0xc0012ab0.
+Frame pointer:0xc0023630, Frame size:52, function entry:0xc00129f4, return address:0xc0012b90.
+Frame pointer:0xc0023664, Frame size:52, function entry:0xc0012ad4, return address:0xc0012c70.
+Frame pointer:0xc0023698, Frame size:52, function entry:0xc0012bb4, return address:0xc0012d50.
+Frame pointer:0xc00236cc, Frame size:52, function entry:0xc0012c94, return address:0xc0012e30.
+Frame pointer:0xc0023700, Frame size:52, function entry:0xc0012d74, return address:0xc000f458.
+Frame pointer:0xc0023734, Frame size:0, function entry:0xc000f3e0, return address:0xc00001c8.
+
+mb_excep_mem_call8 : begin.
+mb_excep_mem_call8 = 0xc001269c
+u32_r1_sp = 0xc0023700
+u32_r15_return_function = 0xc0012720
+
+mb_excep_mem_call7 : begin.
+mb_excep_mem_call7 = 0xc00125b4
+u32_r1_sp = 0xc00236cc
+u32_r15_return_function = 0xc0012638
+
+mb_excep_mem_call6 : begin.
+mb_excep_mem_call6 = 0xc00124cc
+u32_r1_sp = 0xc0023698
+u32_r15_return_function = 0xc0012550
+
+mb_excep_mem_call5 : begin.
+mb_excep_mem_call5 = 0xc00123e4
+u32_r1_sp = 0xc0023664
+u32_r15_return_function = 0xc0012468
+
+mb_excep_mem_call4 : begin.
+mb_excep_mem_call4 = 0xc00122fc
+u32_r1_sp = 0xc0023630
+u32_r15_return_function = 0xc0012380
+
+mb_excep_mem_call3 : begin.
+mb_excep_mem_call3 = 0xc0012214
+u32_r1_sp = 0xc00235fc
+u32_r15_return_function = 0xc0012298
+
+mb_excep_mem_call2 : begin.
+mb_excep_mem_call2 = 0xc001212c
+u32_r1_sp = 0xc00235c8
+u32_r15_return_function = 0xc00121b0
+
+mb_excep_mem_call1 : begin.
+mb_excep_mem_call1 = 0xc0012044
+u32_r1_sp = 0xc0023594
+u32_r15_return_function = 0xc00120c8
+
+mb_excep_mem_access : begin.
+mb_excep_mem_access = 0xc0011f30
+u32_r1_sp = 0xc0023560
+u32_r15_return_function = 0xc0011fb4
+
+
+Write memory address: 0xfffffff8
+
+
+mb_excep_m_axi_d_handler : g_ui_excep_m_axi_d_cnt = 1
+
+mb_excep_info_handle : begin.
+mb_excep_info_handle : u32_msr = 0x000003aa
+mb_excep_info_handle : u32_ear = 0xfffffff8
+mb_excep_info_handle : u32_esr = 0x00000c84
+mb_excep_info_handle : u32_edr = 0x00000000
+mb_excep_info_handle : u32_r17_pc = 0xc0012028
+mb_excep_info_handle : u32_r1_sp = 0xc0023560
+mb_unwind_stack : u32_stack_pointer = 0xc0023560
+mb_unwind_stack : u32_pc = 0xc0012028
+mb_unwind_stack : u32_stack_low_address = 0xc0022778
+mb_unwind_stack : u32_stack_high_address = 0xc0023778
+
+Analyze stack pointer: 0xc0023560
+Try the original stack pointer: 0xc0023560.
+
+
+No. 1-1 stack check at 0xc0023560
+Frame size: 0x00000034, return address: 0xc0012108, pu32_frame_size_pc: 0xc0011f30
+
+
+No. 1-2 stack check at 0xc0023594
+Frame size: 0x00000034, return address: 0xc00121f0, pu32_frame_size_pc: 0xc0012044
+
+
+No. 1-3 stack check at 0xc00235c8
+Frame size: 0x00000034, return address: 0xc00122d8, pu32_frame_size_pc: 0xc001212c
+
+
+No. 1-4 stack check at 0xc00235fc
+Frame size: 0x00000034, return address: 0xc00123c0, pu32_frame_size_pc: 0xc0012214
+
+
+No. 1-5 stack check at 0xc0023630
+Frame size: 0x00000034, return address: 0xc00124a8, pu32_frame_size_pc: 0xc00122fc
+
+
+No. 1-6 stack check at 0xc0023664
+Frame size: 0x00000034, return address: 0xc0012590, pu32_frame_size_pc: 0xc00123e4
+
+
+No. 1-7 stack check at 0xc0023698
+Frame size: 0x00000034, return address: 0xc0012678, pu32_frame_size_pc: 0xc00124cc
+
+
+No. 1-8 stack check at 0xc00236cc
+Frame size: 0x00000034, return address: 0xc0012760, pu32_frame_size_pc: 0xc00125b4
+
+
+No. 1-9 stack check at 0xc0023700
+Frame size: 0x00000034, return address: 0xc000f474, pu32_frame_size_pc: 0xc001269c
+mb_unwind_stack : i_frame_valid_flag = 0x00000001
+mb_unwind_stack : pu32_frame_pointer_try = 0xc0023734
+mb_unwind_stack : pu32_frame_pointer_found = 0xc0023560
+
+
+No. 0 Frame at 0xc0023560
+Frame size: 0x00000034, return address: 0xc0012108, pu32_frame_size_pc: 0xc0011f30
+Might find mb_excep_mem_access() at address 0xc0011f30.
+
+No. 1 Frame at 0xc0023594
+Frame size: 0x00000034, return address: 0xc00121f0, pu32_frame_size_pc: 0xc0012044
+Might find mb_excep_mem_call1() at address 0xc0012044.
+
+No. 2 Frame at 0xc00235c8
+Frame size: 0x00000034, return address: 0xc00122d8, pu32_frame_size_pc: 0xc001212c
+Might find mb_excep_mem_call2() at address 0xc001212c.
+
+No. 3 Frame at 0xc00235fc
+Frame size: 0x00000034, return address: 0xc00123c0, pu32_frame_size_pc: 0xc0012214
+Might find mb_excep_mem_call3() at address 0xc0012214.
+
+No. 4 Frame at 0xc0023630
+Frame size: 0x00000034, return address: 0xc00124a8, pu32_frame_size_pc: 0xc00122fc
+Might find mb_excep_mem_call4() at address 0xc00122fc.
+
+No. 5 Frame at 0xc0023664
+Frame size: 0x00000034, return address: 0xc0012590, pu32_frame_size_pc: 0xc00123e4
+Might find mb_excep_mem_call5() at address 0xc00123e4.
+
+No. 6 Frame at 0xc0023698
+Frame size: 0x00000034, return address: 0xc0012678, pu32_frame_size_pc: 0xc00124cc
+Might find mb_excep_mem_call6() at address 0xc00124cc.
+
+No. 7 Frame at 0xc00236cc
+Frame size: 0x00000034, return address: 0xc0012760, pu32_frame_size_pc: 0xc00125b4
+Might find mb_excep_mem_call7() at address 0xc00125b4.
+
+No. 8 Frame at 0xc0023700
+Frame size: 0x00000034, return address: 0xc000f474, pu32_frame_size_pc: 0xc001269c
+Might find mb_excep_mem_call8() at address 0xc001269c.
+
+No. 9 Frame at 0xc0023734
+Find breakpoint at 0xc000f3e0.
+Might fail to unwind stack.
+Frame size: 0x00000000, return address: 0xc00001c8, pu32_frame_size_pc: 0xc000f3e0
+Find main()exactly at 0xc000f3e0(main:0xc000f3e0).
+
+
+
+Dump stack of system mode that causes this exception::
+0xc0023540:  00000000  c00217f4  c00120c8  c0012010 
+0xc0023550:  c0017efc  00000002  0000000e  000002aa 
+0xc0023560:  c0012108  c001658c  fffffff8  00000026 
+0xc0023570:  00000026  0000000f  00000001  c0023560 
+0xc0023580:  c0023560  c0011fb4  c0011fb4  c0023594 
+0xc0023590:  c00120c8  c00121f0  fffffff8  c0016574 
+0xc00235a0:  c00120c8  00000018  0000000f  00000001 
+0xc00235b0:  c0023594  c0023594  c00120c8  c00120c8 
+0xc00235c0:  c00235c8  c00121b0  c00122d8  fffffff8 
+0xc00235d0:  c0016574  c00121b0  00000018  0000000f 
+0xc00235e0:  00000001  c00235c8  c00235c8  c00121b0 
+0xc00235f0:  c00121b0  c00235fc  c0012298  c00123c0 
+0xc0023600:  fffffff8  c0016574  c0012298  00000018 
+0xc0023610:  0000000f  00000001  c00235fc  c00235fc 
+0xc0023620:  c0012298  c0012298  c0023630  c0012380 
+0xc0023630:  c00124a8  fffffff8  c0016574  c0012380 
+0xc0023640:  00000018  0000000f  00000001  c0023630 
+0xc0023650:  c0023630  c0012380  c0012380  c0023664 
+0xc0023660:  c0012468  c0012590  fffffff8  c0016574 
+0xc0023670:  c0012468  00000018  0000000f  00000001 
+0xc0023680:  c0023664  c0023664  c0012468  c0012468 
+0xc0023690:  c0023698  c0012550  c0012678  fffffff8 
+0xc00236a0:  c0016574  c0012550  00000018  0000000f 
+0xc00236b0:  00000001  c0023698  c0023698  c0012550 
+
+
+
+AXI Data Exception exception inofrmation counter: 1.
+No. 0 AXI Data Exception exception inofrmation:
+MSR: 0x000003aa.
+EAR: 0xfffffff8.
+ESR: 0x00000c84.
+EDR: 0x00000000.
+Exception address: 0xc0012028.
+Stack pointer: 0xc0023560.
+
+Stack contents:
+0xc0023540:  00000000    c00217f4    c00120c8    c0012010
+0xc0023550:  c0017efc    00000002    0000000e    000002aa
+0xc0023560:  c0012108    c001658c    fffffff8    00000026
+0xc0023570:  00000026    0000000f    00000001    c0023560
+0xc0023580:  c0023560    c0011fb4    c0011fb4    c0023594
+0xc0023590:  c00120c8    c00121f0    fffffff8    c0016574
+0xc00235a0:  c00120c8    00000018    0000000f    00000001
+0xc00235b0:  c0023594    c0023594    c00120c8    c00120c8
+0xc00235c0:  c00235c8    c00121b0    c00122d8    fffffff8
+0xc00235d0:  c0016574    c00121b0    00000018    0000000f
+0xc00235e0:  00000001    c00235c8    c00235c8    c00121b0
+0xc00235f0:  c00121b0    c00235fc    c0012298    c00123c0
+0xc0023600:  fffffff8    c0016574    c0012298    00000018
+0xc0023610:  0000000f    00000001    c00235fc    c00235fc
+0xc0023620:  c0012298    c0012298    c0023630    c0012380
+0xc0023630:  c00124a8    fffffff8    c0016574    c0012380
+0xc0023640:  00000018    0000000f    00000001    c0023630
+0xc0023650:  c0023630    c0012380    c0012380    c0023664
+0xc0023660:  c0012468    c0012590    fffffff8    c0016574
+0xc0023670:  c0012468    00000018    0000000f    00000001
+0xc0023680:  c0023664    c0023664    c0012468    c0012468
+0xc0023690:  c0023698    c0012550    c0012678    fffffff8
+0xc00236a0:  c0016574    c0012550    00000018    0000000f
+0xc00236b0:  00000001    c0023698    c0023698    c0012550
+0xc00236c0:  c0012550    c00236cc    c0012638    c0012760
+0xc00236d0:  fffffff8    c0016574    c0012638    00000018
+0xc00236e0:  0000000f    00000001    c00236cc    c00236cc
+0xc00236f0:  c0012638    c0012638    c0023700    c0012720
+0xc0023700:  c000f474    fffffff8    c0016574    c0012720
+0xc0023710:  00000018    0000000f    00000001    c0023700
+0xc0023720:  c0023700    c0012720    c0012720    c0023734
+0xc0023730:  c0012ed8    c00001c8    fffffff8    00000000
+0xc0023740:  00000000    800000ac    0000000f    c00181e8
+0xc0023750:  00000000    c000001c    16e017d0    17e017f0
+0xc0023760:  17b10770    17b057b0    57f057f0    15f817f4
+0xc0023770:  17b017b0    13301732    17c017e8    17f016d0
+0xc0023780:  033007f0    07b117f0    14e817f8    54d056f0
+0xc0023790:  17f016f0    033007b0    15f011c0    17f016e0
+0xc00237a0:  07302371    17e013f0    57f017f0    14f014c0
+0xc00237b0:  17f017b0    13701730    15c014e0    16f417f8
+0xc00237c0:  273013b0    07b01ff1    16c017f0    15f054c0
+0xc00237d0:  17f017b1    03300760    04c094e0    97d017f0
+0xc00237e0:  23f01372    33b01ff0    07f01790    127016f0
+0xc00237f0:  17f017f2    13500b30    17cc94d0    17f017f0
+0xc0023800:  237017b0    0bf017f2    17f016f8    15e417e4
+0xc0023810:  27301f50    13b01770    54d81550    97f017b0
+0xc0023820:  033037f0    07f20770    54f013e0    17d015c0
+0xc0023830:  07f007f0    47300330    94e016d0    17f806f8
+0xc0023840:  0b300370    17f03770    17f014f8    14d816f0
+0xc0023850:  076017f0    07320332    564015d0    85f017e0
+0xc0023860:  173003d2    17f317f1    15c017e0    14f01580
+0xc0023870:  17f003f0    17d007f0    15d017a0    17f816f0
+0xc0023880:  07301770    13e107f0    17e414f0    14d857e0
+0xc0023890:  16f007b0    0f720330    14c054c0    17b014e0
+0xc00238a0:  063003b0    1eb017f0    17f417f0    175015e0
+0xc00238b0:  177017e0    17b01370    16f015d0    15b017f4
+0xc00238c0:  03300730    17b017b0    17c017c0    56d454f0
+0xc00238d0:  1fb017f0    1bb00330    15c016f0    16f017e0
+0xc00238e0:  03f01331    13f01ff2    17d01770    54e015f8
+0xc00238f0:  17f013f2    17301772    94d416e0    167015f0
+0xc0023900:  07b017f0    33f217b2    57f097f0    16e017c4
+0xc0023910:  17f01370    13f001b0    174014c0    17f017f0
+0xc0023920:  177013b0    17f037f0    14e017e0    15d014f0
+0xc0023930:  17f80370    07f017b0    16c017e0    16f837f0
+Call informaion:
+Frame pointer:0xc0023560, Frame size:52, function entry:0xc0011f30, return address:0xc0012108.
+Frame pointer:0xc0023594, Frame size:52, function entry:0xc0012044, return address:0xc00121f0.
+Frame pointer:0xc00235c8, Frame size:52, function entry:0xc001212c, return address:0xc00122d8.
+Frame pointer:0xc00235fc, Frame size:52, function entry:0xc0012214, return address:0xc00123c0.
+Frame pointer:0xc0023630, Frame size:52, function entry:0xc00122fc, return address:0xc00124a8.
+Frame pointer:0xc0023664, Frame size:52, function entry:0xc00123e4, return address:0xc0012590.
+Frame pointer:0xc0023698, Frame size:52, function entry:0xc00124cc, return address:0xc0012678.
+Frame pointer:0xc00236cc, Frame size:52, function entry:0xc00125b4, return address:0xc0012760.
+Frame pointer:0xc0023700, Frame size:52, function entry:0xc001269c, return address:0xc000f474.
+Frame pointer:0xc0023734, Frame size:0, function entry:0xc000f3e0, return address:0xc00001c8.
+
+mb_excep_divide_call5 : begin.
+mb_excep_divide_call5 = 0xc0013b3c
+u32_r1_sp = 0xc0023700
+u32_r15_return_function = 0xc0013bbc
+
+mb_excep_divide_call4 : begin.
+mb_excep_divide_call4 = 0xc0013a5c
+u32_r1_sp = 0xc00236cc
+u32_r15_return_function = 0xc0013adc
+
+mb_excep_divide_call3 : begin.
+mb_excep_divide_call3 = 0xc001397c
+u32_r1_sp = 0xc0023698
+u32_r15_return_function = 0xc00139fc
+
+mb_excep_divide_call2 : begin.
+mb_excep_divide_call2 = 0xc001389c
+u32_r1_sp = 0xc0023664
+u32_r15_return_function = 0xc001391c
+
+mb_excep_divide_call1 : begin.
+mb_excep_divide_call1 = 0xc00137bc
+u32_r1_sp = 0xc0023630
+u32_r15_return_function = 0xc001383c
+
+mb_excep_divide_zero : begin.
+mb_excep_divide_zero = 0xc00136bc
+u32_r1_sp = 0xc0023604
+
+
+mb_excep_div_zero_handler : g_ui_excep_div_cnt = 1
+
+mb_excep_info_handle : begin.
+mb_excep_info_handle : u32_msr = 0x000003ea
+mb_excep_info_handle : u32_ear = 0x00000064
+mb_excep_info_handle : u32_esr = 0x00000065
+mb_excep_info_handle : u32_edr = 0x00000000
+mb_excep_info_handle : u32_r17_pc = 0xc001376c
+mb_excep_info_handle : u32_r1_sp = 0xc0023604
+mb_unwind_stack : u32_stack_pointer = 0xc0023604
+mb_unwind_stack : u32_pc = 0xc001376c
+mb_unwind_stack : u32_stack_low_address = 0xc0022778
+mb_unwind_stack : u32_stack_high_address = 0xc0023778
+
+Analyze stack pointer: 0xc0023604
+Try the original stack pointer: 0xc0023604.
+
+
+No. 1-1 stack check at 0xc0023604
+Frame size: 0x0000002c, return address: 0xc0013878, pu32_frame_size_pc: 0xc00136bc
+
+
+No. 1-2 stack check at 0xc0023630
+Frame size: 0x00000034, return address: 0xc0013958, pu32_frame_size_pc: 0xc00137bc
+
+
+No. 1-3 stack check at 0xc0023664
+Frame size: 0x00000034, return address: 0xc0013a38, pu32_frame_size_pc: 0xc001389c
+
+
+No. 1-4 stack check at 0xc0023698
+Frame size: 0x00000034, return address: 0xc0013b18, pu32_frame_size_pc: 0xc001397c
+
+
+No. 1-5 stack check at 0xc00236cc
+Frame size: 0x00000034, return address: 0xc0013bf8, pu32_frame_size_pc: 0xc0013a5c
+
+
+No. 1-6 stack check at 0xc0023700
+Frame size: 0x00000034, return address: 0xc000f48c, pu32_frame_size_pc: 0xc0013b3c
+
+
+No. 1-7 stack check at 0xc0023734
+Find breakpoint at 0xc000f3e0.
+Might fail to unwind stack.
+Frame size: 0x00000000, return address: 0xc00001c8, pu32_frame_size_pc: 0xc000f3e0
+Find main()at 0xc000f3e0(main:0xc000f3e0).
+mb_unwind_stack : i_frame_valid_flag = 0x00000001
+mb_unwind_stack : pu32_frame_pointer_try = 0xc0023734
+mb_unwind_stack : pu32_frame_pointer_found = 0xc0023604
+
+
+No. 0 Frame at 0xc0023604
+Frame size: 0x0000002c, return address: 0xc0013878, pu32_frame_size_pc: 0xc00136bc
+Might find mb_excep_divide_zero() at address 0xc00136bc.
+
+No. 1 Frame at 0xc0023630
+Frame size: 0x00000034, return address: 0xc0013958, pu32_frame_size_pc: 0xc00137bc
+Might find mb_excep_divide_call1() at address 0xc00137bc.
+
+No. 2 Frame at 0xc0023664
+Frame size: 0x00000034, return address: 0xc0013a38, pu32_frame_size_pc: 0xc001389c
+Might find mb_excep_divide_call2() at address 0xc001389c.
+
+No. 3 Frame at 0xc0023698
+Frame size: 0x00000034, return address: 0xc0013b18, pu32_frame_size_pc: 0xc001397c
+Might find mb_excep_divide_call3() at address 0xc001397c.
+
+No. 4 Frame at 0xc00236cc
+Frame size: 0x00000034, return address: 0xc0013bf8, pu32_frame_size_pc: 0xc0013a5c
+Might find mb_excep_divide_call4() at address 0xc0013a5c.
+
+No. 5 Frame at 0xc0023700
+Frame size: 0x00000034, return address: 0xc000f48c, pu32_frame_size_pc: 0xc0013b3c
+
+No. 6 Frame at 0xc0023734
+Find breakpoint at 0xc000f3e0.
+Might fail to unwind stack.
+Frame size: 0x00000000, return address: 0xc00001c8, pu32_frame_size_pc: 0xc000f3e0
+Find main()exactly at 0xc000f3e0(main:0xc000f3e0).
+
+
+
+Dump stack of system mode that causes this exception::
+0xc00235e0:  00000000  00000000  c00217f4  c0017efc 
+0xc00235f0:  c001373c  00000000  c002161b  00000000 
+0xc0023600:  000002ea  c0013878  c0016544  c0016568 
+0xc0023610:  c0023604  00000023  0000000f  00000001 
+0xc0023620:  c0023604  c0023604  c0023630  c001383c 
+0xc0023630:  c0013958  c0016544  c0016574  c001383c 
+0xc0023640:  00000018  0000000f  00000001  c0023630 
+0xc0023650:  c0023630  c001383c  c001383c  c0023664 
+0xc0023660:  c001391c  c0013a38  c0016544  c0016574 
+0xc0023670:  c001391c  00000018  0000000f  00000001 
+0xc0023680:  c0023664  c0023664  c001391c  c001391c 
+0xc0023690:  c0023698  c00139fc  c0013b18  c0016544 
+0xc00236a0:  c0016574  c00139fc  00000018  0000000f 
+0xc00236b0:  00000001  c0023698  c0023698  c00139fc 
+0xc00236c0:  c00139fc  c00236cc  c0013adc  c0013bf8 
+0xc00236d0:  c0016544  c0016574  c0013adc  00000018 
+0xc00236e0:  0000000f  00000001  c00236cc  c00236cc 
+0xc00236f0:  c0013adc  c0013adc  c0023700  c0013bbc 
+0xc0023700:  c000f48c  c0016544  c0016574  c0013bbc 
+0xc0023710:  00000018  0000000f  00000001  c0023700 
+0xc0023720:  c0023700  c0013bbc  c0013bbc  c0023734 
+0xc0023730:  c0012ed8  c00001c8  fffffff8  00000000 
+0xc0023740:  00000000  800000ac  0000000f  c00181e8 
+0xc0023750:  00000000  c000001c  16e017d0  17e017f0 
+
+
+
+i_quotient = 0x00000000
+Divide by Zero Exception exception inofrmation counter: 1.
+No. 0 Divide by Zero Exception exception inofrmation:
+MSR: 0x000003ea.
+EAR: 0x00000064.
+ESR: 0x00000065.
+EDR: 0x00000000.
+Exception address: 0xc001376c.
+Stack pointer: 0xc0023604.
+
+Stack contents:
+0xc00235e0:  00000000    00000000    c00217f4    c0017efc
+0xc00235f0:  c001373c    00000000    c002161b    00000000
+0xc0023600:  000002ea    c0013878    c0016544    c0016568
+0xc0023610:  c0023604    00000023    0000000f    00000001
+0xc0023620:  c0023604    c0023604    c0023630    c001383c
+0xc0023630:  c0013958    c0016544    c0016574    c001383c
+0xc0023640:  00000018    0000000f    00000001    c0023630
+0xc0023650:  c0023630    c001383c    c001383c    c0023664
+0xc0023660:  c001391c    c0013a38    c0016544    c0016574
+0xc0023670:  c001391c    00000018    0000000f    00000001
+0xc0023680:  c0023664    c0023664    c001391c    c001391c
+0xc0023690:  c0023698    c00139fc    c0013b18    c0016544
+0xc00236a0:  c0016574    c00139fc    00000018    0000000f
+0xc00236b0:  00000001    c0023698    c0023698    c00139fc
+0xc00236c0:  c00139fc    c00236cc    c0013adc    c0013bf8
+0xc00236d0:  c0016544    c0016574    c0013adc    00000018
+0xc00236e0:  0000000f    00000001    c00236cc    c00236cc
+0xc00236f0:  c0013adc    c0013adc    c0023700    c0013bbc
+0xc0023700:  c000f48c    c0016544    c0016574    c0013bbc
+0xc0023710:  00000018    0000000f    00000001    c0023700
+0xc0023720:  c0023700    c0013bbc    c0013bbc    c0023734
+0xc0023730:  c0012ed8    c00001c8    fffffff8    00000000
+0xc0023740:  00000000    800000ac    0000000f    c00181e8
+0xc0023750:  00000000    c000001c    16e017d0    17e017f0
+0xc0023760:  17b10770    17b057b0    57f057f0    15f817f4
+0xc0023770:  17b017b0    13301732    17c017e8    17f016d0
+0xc0023780:  033007f0    07b117f0    14e817f8    54d056f0
+0xc0023790:  17f016f0    033007b0    15f011c0    17f016e0
+0xc00237a0:  07302371    17e013f0    57f017f0    14f014c0
+0xc00237b0:  17f017b0    13701730    15c014e0    16f417f8
+0xc00237c0:  273013b0    07b01ff1    16c017f0    15f054c0
+0xc00237d0:  17f017b1    03300760    04c094e0    97d017f0
+0xc00237e0:  23f01372    33b01ff0    07f01790    127016f0
+0xc00237f0:  17f017f2    13500b30    17cc94d0    17f017f0
+0xc0023800:  237017b0    0bf017f2    17f016f8    15e417e4
+0xc0023810:  27301f50    13b01770    54d81550    97f017b0
+0xc0023820:  033037f0    07f20770    54f013e0    17d015c0
+0xc0023830:  07f007f0    47300330    94e016d0    17f806f8
+0xc0023840:  0b300370    17f03770    17f014f8    14d816f0
+0xc0023850:  076017f0    07320332    564015d0    85f017e0
+0xc0023860:  173003d2    17f317f1    15c017e0    14f01580
+0xc0023870:  17f003f0    17d007f0    15d017a0    17f816f0
+0xc0023880:  07301770    13e107f0    17e414f0    14d857e0
+0xc0023890:  16f007b0    0f720330    14c054c0    17b014e0
+0xc00238a0:  063003b0    1eb017f0    17f417f0    175015e0
+0xc00238b0:  177017e0    17b01370    16f015d0    15b017f4
+0xc00238c0:  03300730    17b017b0    17c017c0    56d454f0
+0xc00238d0:  1fb017f0    1bb00330    15c016f0    16f017e0
+0xc00238e0:  03f01331    13f01ff2    17d01770    54e015f8
+0xc00238f0:  17f013f2    17301772    94d416e0    167015f0
+0xc0023900:  07b017f0    33f217b2    57f097f0    16e017c4
+0xc0023910:  17f01370    13f001b0    174014c0    17f017f0
+0xc0023920:  177013b0    17f037f0    14e017e0    15d014f0
+0xc0023930:  17f80370    07f017b0    16c017e0    16f837f0
+0xc0023940:  137013f0    37b017f0    15b415e0    96d017e0
+0xc0023950:  17f07732    0fb013a0    14c013d0    16e016f0
+0xc0023960:  33b017f0    1ff01370    17d414e1    16b017a0
+0xc0023970:  17f007f0    077017b0    17c014f0    16d096f0
+0xc0023980:  17b007b0    376007b0    54d017f0    16f0d7f0
+0xc0023990:  037017f2    23300730    04d017e0    15d016f0
+0xc00239a0:  3f701730    17f01fb0    05d417f0    54c814e0
+0xc00239b0:  177017f0    0b301330    17d014f0    13e015f0
+0xc00239c0:  13f00731    15b00ff0    15f017f0    14e816c0
+0xc00239d0:  17f01fb0    27f213b0    17e015d0    14d017f0
+Call informaion:
+Frame pointer:0xc0023604, Frame size:44, function entry:0xc00136bc, return address:0xc0013878.
+Frame pointer:0xc0023630, Frame size:52, function entry:0xc00137bc, return address:0xc0013958.
+Frame pointer:0xc0023664, Frame size:52, function entry:0xc001389c, return address:0xc0013a38.
+Frame pointer:0xc0023698, Frame size:52, function entry:0xc001397c, return address:0xc0013b18.
+Frame pointer:0xc00236cc, Frame size:52, function entry:0xc0013a5c, return address:0xc0013bf8.
+Frame pointer:0xc0023700, Frame size:52, function entry:0xc0013b3c, return address:0xc000f48c.
+Frame pointer:0xc0023734, Frame size:0, function entry:0xc000f3e0, return address:0xc00001c8.
+
+mb_excep_fp_call5 : begin.
+mb_excep_fp_call5 = 0xc001427c
+u32_r1_sp = 0xc0023700
+u32_r15_return_function = 0xc00142fc
+
+mb_excep_fp_call4 : begin.
+mb_excep_fp_call4 = 0xc001419c
+u32_r1_sp = 0xc00236cc
+u32_r15_return_function = 0xc001421c
+
+mb_excep_fp_call3 : begin.
+mb_excep_fp_call3 = 0xc00140bc
+u32_r1_sp = 0xc0023698
+u32_r15_return_function = 0xc001413c
+
+mb_excep_fp_call2 : begin.
+mb_excep_fp_call2 = 0xc0013fdc
+u32_r1_sp = 0xc0023664
+u32_r15_return_function = 0xc001405c
+
+mb_excep_fp_call1 : begin.
+mb_excep_fp_call1 = 0xc0013efc
+u32_r1_sp = 0xc0023630
+u32_r15_return_function = 0xc0013f7c
+
+mb_excep_fp_underflow : begin.
+mb_excep_fp_underflow = 0xc0013db4
+u32_r1_sp = 0xc00235fc
+u32_r15_return_function = 0xc0013e34
+
+
+mb_excep_fpu_handler : g_ui_excep_fpu_cnt = 1
+
+mb_excep_info_handle : begin.
+mb_excep_info_handle : u32_msr = 0x000003ea
+mb_excep_info_handle : u32_ear = 0x44d01cea
+mb_excep_info_handle : u32_esr = 0x00000066
+mb_excep_info_handle : u32_edr = 0x00000000
+mb_excep_info_handle : u32_r17_pc = 0xc0013ea0
+mb_excep_info_handle : u32_r1_sp = 0xc00235fc
+mb_unwind_stack : u32_stack_pointer = 0xc00235fc
+mb_unwind_stack : u32_pc = 0xc0013ea0
+mb_unwind_stack : u32_stack_low_address = 0xc0022778
+mb_unwind_stack : u32_stack_high_address = 0xc0023778
+
+Analyze stack pointer: 0xc00235fc
+Try the original stack pointer: 0xc00235fc.
+
+
+No. 1-1 stack check at 0xc00235fc
+Frame size: 0x00000034, return address: 0xc0013fb8, pu32_frame_size_pc: 0xc0013db4
+
+
+No. 1-2 stack check at 0xc0023630
+Frame size: 0x00000034, return address: 0xc0014098, pu32_frame_size_pc: 0xc0013efc
+
+
+No. 1-3 stack check at 0xc0023664
+Frame size: 0x00000034, return address: 0xc0014178, pu32_frame_size_pc: 0xc0013fdc
+
+
+No. 1-4 stack check at 0xc0023698
+Frame size: 0x00000034, return address: 0xc0014258, pu32_frame_size_pc: 0xc00140bc
+
+
+No. 1-5 stack check at 0xc00236cc
+Frame size: 0x00000034, return address: 0xc0014338, pu32_frame_size_pc: 0xc001419c
+
+
+No. 1-6 stack check at 0xc0023700
+Frame size: 0x00000034, return address: 0xc000f4a4, pu32_frame_size_pc: 0xc001427c
+
+
+No. 1-7 stack check at 0xc0023734
+Find breakpoint at 0xc000f3e0.
+Might fail to unwind stack.
+Frame size: 0x00000000, return address: 0xc00001c8, pu32_frame_size_pc: 0xc000f3e0
+Find main()at 0xc000f3e0(main:0xc000f3e0).
+mb_unwind_stack : i_frame_valid_flag = 0x00000001
+mb_unwind_stack : pu32_frame_pointer_try = 0xc0023734
+mb_unwind_stack : pu32_frame_pointer_found = 0xc00235fc
+
+
+No. 0 Frame at 0xc00235fc
+Frame size: 0x00000034, return address: 0xc0013fb8, pu32_frame_size_pc: 0xc0013db4
+Might find mb_excep_fp_underflow() at address 0xc0013db4.
+
+No. 1 Frame at 0xc0023630
+Frame size: 0x00000034, return address: 0xc0014098, pu32_frame_size_pc: 0xc0013efc
+Might find mb_excep_fp_call1() at address 0xc0013efc.
+
+No. 2 Frame at 0xc0023664
+Frame size: 0x00000034, return address: 0xc0014178, pu32_frame_size_pc: 0xc0013fdc
+Might find mb_excep_fp_call2() at address 0xc0013fdc.
+
+No. 3 Frame at 0xc0023698
+Frame size: 0x00000034, return address: 0xc0014258, pu32_frame_size_pc: 0xc00140bc
+Might find mb_excep_fp_call3() at address 0xc00140bc.
+
+No. 4 Frame at 0xc00236cc
+Frame size: 0x00000034, return address: 0xc0014338, pu32_frame_size_pc: 0xc001419c
+Might find mb_excep_fp_call4() at address 0xc001419c.
+
+No. 5 Frame at 0xc0023700
+Frame size: 0x00000034, return address: 0xc000f4a4, pu32_frame_size_pc: 0xc001427c
+Might find mb_excep_fp_call5() at address 0xc001427c.
+
+No. 6 Frame at 0xc0023734
+Find breakpoint at 0xc000f3e0.
+Might fail to unwind stack.
+Frame size: 0x00000000, return address: 0xc00001c8, pu32_frame_size_pc: 0xc000f3e0
+Find main()exactly at 0xc000f3e0(main:0xc000f3e0).
+
+
+
+Dump stack of system mode that causes this exception::
+0xc00235c0:  40600000  0000000a  00000026  00000026 
+0xc00235d0:  0000000f  00000001  c0021954  00000000 
+0xc00235e0:  c00217f4  c0013f7c  c0013e64  c0017efc 
+0xc00235f0:  00000002  00000000  000002ea  c0013fb8 
+0xc0023600:  c0016544  c0016574  c0013e34  00000018 
+0xc0023610:  0000000f  00000001  c00235fc  c00235fc 
+0xc0023620:  c0013e34  c0013e34  c0023630  c0013f7c 
+0xc0023630:  c0014098  c0016544  c0016574  c0013f7c 
+0xc0023640:  00000018  0000000f  00000001  c0023630 
+0xc0023650:  c0023630  c0013f7c  c0013f7c  c0023664 
+0xc0023660:  c001405c  c0014178  c0016544  c0016574 
+0xc0023670:  c001405c  00000018  0000000f  00000001 
+0xc0023680:  c0023664  c0023664  c001405c  c001405c 
+0xc0023690:  c0023698  c001413c  c0014258  c0016544 
+0xc00236a0:  c0016574  c001413c  00000018  0000000f 
+0xc00236b0:  00000001  c0023698  c0023698  c001413c 
+0xc00236c0:  c001413c  c00236cc  c001421c  c0014338 
+0xc00236d0:  c0016544  c0016574  c001421c  00000018 
+0xc00236e0:  0000000f  00000001  c00236cc  c00236cc 
+0xc00236f0:  c001421c  c001421c  c0023700  c00142fc 
+0xc0023700:  c000f4a4  c0016544  c0016574  c00142fc 
+0xc0023710:  00000018  0000000f  00000001  c0023700 
+0xc0023720:  c0023700  c00142fc  c00142fc  c0023734 
+0xc0023730:  c0012ed8  c00001c8  fffffff8  00000000 
+
+
+
+f_quotient = 0x00000064
+FPU Exception exception inofrmation counter: 1.
+No. 0 FPU Exception exception inofrmation:
+MSR: 0x000003ea.
+EAR: 0x44d01cea.
+ESR: 0x00000066.
+EDR: 0x00000000.
+Exception address: 0xc0013ea0.
+Stack pointer: 0xc00235fc.
+
+Stack contents:
+0xc00235c0:  40600000    0000000a    00000026    00000026
+0xc00235d0:  0000000f    00000001    c0021954    00000000
+0xc00235e0:  c00217f4    c0013f7c    c0013e64    c0017efc
+0xc00235f0:  00000002    00000000    000002ea    c0013fb8
+0xc0023600:  c0016544    c0016574    c0013e34    00000018
+0xc0023610:  0000000f    00000001    c00235fc    c00235fc
+0xc0023620:  c0013e34    c0013e34    c0023630    c0013f7c
+0xc0023630:  c0014098    c0016544    c0016574    c0013f7c
+0xc0023640:  00000018    0000000f    00000001    c0023630
+0xc0023650:  c0023630    c0013f7c    c0013f7c    c0023664
+0xc0023660:  c001405c    c0014178    c0016544    c0016574
+0xc0023670:  c001405c    00000018    0000000f    00000001
+0xc0023680:  c0023664    c0023664    c001405c    c001405c
+0xc0023690:  c0023698    c001413c    c0014258    c0016544
+0xc00236a0:  c0016574    c001413c    00000018    0000000f
+0xc00236b0:  00000001    c0023698    c0023698    c001413c
+0xc00236c0:  c001413c    c00236cc    c001421c    c0014338
+0xc00236d0:  c0016544    c0016574    c001421c    00000018
+0xc00236e0:  0000000f    00000001    c00236cc    c00236cc
+0xc00236f0:  c001421c    c001421c    c0023700    c00142fc
+0xc0023700:  c000f4a4    c0016544    c0016574    c00142fc
+0xc0023710:  00000018    0000000f    00000001    c0023700
+0xc0023720:  c0023700    c00142fc    c00142fc    c0023734
+0xc0023730:  c0012ed8    c00001c8    fffffff8    00000000
+0xc0023740:  00000000    800000ac    0000000f    c00181e8
+0xc0023750:  00000000    c000001c    16e017d0    17e017f0
+0xc0023760:  17b10770    17b057b0    57f057f0    15f817f4
+0xc0023770:  17b017b0    13301732    17c017e8    17f016d0
+0xc0023780:  033007f0    07b117f0    14e817f8    54d056f0
+0xc0023790:  17f016f0    033007b0    15f011c0    17f016e0
+0xc00237a0:  07302371    17e013f0    57f017f0    14f014c0
+0xc00237b0:  17f017b0    13701730    15c014e0    16f417f8
+0xc00237c0:  273013b0    07b01ff1    16c017f0    15f054c0
+0xc00237d0:  17f017b1    03300760    04c094e0    97d017f0
+0xc00237e0:  23f01372    33b01ff0    07f01790    127016f0
+0xc00237f0:  17f017f2    13500b30    17cc94d0    17f017f0
+0xc0023800:  237017b0    0bf017f2    17f016f8    15e417e4
+0xc0023810:  27301f50    13b01770    54d81550    97f017b0
+0xc0023820:  033037f0    07f20770    54f013e0    17d015c0
+0xc0023830:  07f007f0    47300330    94e016d0    17f806f8
+0xc0023840:  0b300370    17f03770    17f014f8    14d816f0
+0xc0023850:  076017f0    07320332    564015d0    85f017e0
+0xc0023860:  173003d2    17f317f1    15c017e0    14f01580
+0xc0023870:  17f003f0    17d007f0    15d017a0    17f816f0
+0xc0023880:  07301770    13e107f0    17e414f0    14d857e0
+0xc0023890:  16f007b0    0f720330    14c054c0    17b014e0
+0xc00238a0:  063003b0    1eb017f0    17f417f0    175015e0
+0xc00238b0:  177017e0    17b01370    16f015d0    15b017f4
+0xc00238c0:  03300730    17b017b0    17c017c0    56d454f0
+0xc00238d0:  1fb017f0    1bb00330    15c016f0    16f017e0
+0xc00238e0:  03f01331    13f01ff2    17d01770    54e015f8
+0xc00238f0:  17f013f2    17301772    94d416e0    167015f0
+0xc0023900:  07b017f0    33f217b2    57f097f0    16e017c4
+0xc0023910:  17f01370    13f001b0    174014c0    17f017f0
+0xc0023920:  177013b0    17f037f0    14e017e0    15d014f0
+0xc0023930:  17f80370    07f017b0    16c017e0    16f837f0
+0xc0023940:  137013f0    37b017f0    15b415e0    96d017e0
+0xc0023950:  17f07732    0fb013a0    14c013d0    16e016f0
+0xc0023960:  33b017f0    1ff01370    17d414e1    16b017a0
+0xc0023970:  17f007f0    077017b0    17c014f0    16d096f0
+0xc0023980:  17b007b0    376007b0    54d017f0    16f0d7f0
+0xc0023990:  037017f2    23300730    04d017e0    15d016f0
+0xc00239a0:  3f701730    17f01fb0    05d417f0    54c814e0
+0xc00239b0:  177017f0    0b301330    17d014f0    13e015f0
+Call informaion:
+Frame pointer:0xc00235fc, Frame size:52, function entry:0xc0013db4, return address:0xc0013fb8.
+Frame pointer:0xc0023630, Frame size:52, function entry:0xc0013efc, return address:0xc0014098.
+Frame pointer:0xc0023664, Frame size:52, function entry:0xc0013fdc, return address:0xc0014178.
+Frame pointer:0xc0023698, Frame size:52, function entry:0xc00140bc, return address:0xc0014258.
+Frame pointer:0xc00236cc, Frame size:52, function entry:0xc001419c, return address:0xc0014338.
+Frame pointer:0xc0023700, Frame size:52, function entry:0xc001427c, return address:0xc000f4a4.
+Frame pointer:0xc0023734, Frame size:0, function entry:0xc000f3e0, return address:0xc00001c8.
+g_ui_excep_unaligned_access_cnt = 1
+g_ui_excep_illegal_instr_cnt = 1
+g_ui_excep_m_axi_d_cnt = 1
+g_ui_excep_div_cnt = 1
+g_ui_excep_fpu_cnt = 1
+Exception completed.
